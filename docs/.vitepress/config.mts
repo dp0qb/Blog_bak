@@ -8,9 +8,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: getNavData(),
-
     sidebar: getSidebarData(),
-
+    search: {
+      provider: "local"
+    }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/dp0qb' }
     // ]

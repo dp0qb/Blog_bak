@@ -12,12 +12,9 @@ hero:
     - theme: brand
       text: 开始阅读 ->
       link: /example
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github主页
+      link: https://github.com/dp0qb
 features:
   - icon: 💻
     title: 学习笔记
