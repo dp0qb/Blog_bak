@@ -161,8 +161,8 @@ function getNavDataArr(dirFullPath: string, level: number, maxLevel: number): De
     const stats = statSync(fileOrDirFullPath)
     const link = getDocsDirNameAfterStr(fileOrDirFullPath).replace('.md', '').replace(/\\/g, '/')
 
-    const text = fileOrDirName.match(/^[0-9]{2}-.+/) ? fileOrDirName.substring(3) : fileOrDirName
-
+    const text = (fileOrDirName.match(/^[0-9]{2}-.+/) ? fileOrDirName.substring(3) : fileOrDirName).replace(".md", "")
+    
     if (stats.isDirectory()) {
       // 当前为文件夹
       const dirData: any = {
@@ -171,7 +171,7 @@ function getNavDataArr(dirFullPath: string, level: number, maxLevel: number): De
       }
 
       if (level !== maxLevel) {
-        const arr = getNavDataArr(fileOrDirFullPath, level + 1, maxLevel).filter(v => v.text !== 'index.md')
+        const arr = getNavDataArr(fileOrDirFullPath, level + 1, maxLevel).filter(v => v.text !== 'index')
         if (arr.length > 0) {
           // @ts-ignore
           dirData.items = arr

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读 ->
-      link: /example
+      link: /articles/学习笔记
     - theme: alt
       text: Github主页
       link: https://github.com/dp0qb
@@ -19,7 +19,7 @@ features:
   - icon: 💻
     title: 学习笔记
     details: 在学习、工作中积攒的知识和经验...
-  - icon: 🧠
+  - icon: 🤔
     title: 思考与杂谈
     details: 平时的胡思乱想和各种稀奇古怪的东西...
   - icon: 🌼
