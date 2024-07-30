@@ -1,6 +1,9 @@
 ---
 layout: home
-
+head:
+  - - link
+    - rel: stylesheet
+      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
 hero:
   name: 柏霞的博客
   text: Baixia's Blog
@@ -19,10 +22,13 @@ features:
   - icon: 💻
     title: 学习笔记
     details: 在学习、工作中积攒的知识和经验...
+    link: /articles/学习笔记
   - icon: 🤔
     title: 思考与杂谈
     details: 平时的胡思乱想和各种稀奇古怪的东西...
+    link: /articles/思考与杂谈
   - icon: 🌼
     title: 日常分享
     details: 生活（作死）小技巧、养花经验分享...
+    link: /articles/日常分享
 ---
