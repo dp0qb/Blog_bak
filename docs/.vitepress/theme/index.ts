@@ -1,7 +1,9 @@
 import DefaultTheme from 'vitepress/theme';
+import Layout from './Layout.vue';
 
 export default {
   ...DefaultTheme,
+  Layout: Layout,
   async enhanceApp() {
     if (!import.meta.env.SSR) {
       const { loadOml2d } = await import('oh-my-live2d');

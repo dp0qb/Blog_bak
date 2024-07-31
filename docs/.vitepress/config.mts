@@ -99,19 +99,19 @@ export default defineConfig({
     nav: getNavData(),
     sidebar: getSidebarData(),
     search: {
-      provider: 'local', // 可以开启本地搜索
-      /** provider: "algolia",
+      //provider: 'local', // 可以开启本地搜索
+      provider: "algolia",
       options: {
-        appId: "KTXVD47GQW",
-        apiKey: "ad6294da5f12e03a5bc755d132639a8f",
-        indexName: "dp0qb",
+        appId: "O7ANYUO5K6",
+        apiKey: "b55493ae47021a268454bdcd24d097a4",
+        indexName: "guorq-cloudns",
         placeholder: "请输入关键词",
         translations: {
           button: {
             buttonText: "请输入关键词",
           },
         },
-      }, **/
+      },
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dp0qb' }

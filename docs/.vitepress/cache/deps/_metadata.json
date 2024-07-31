@@ -1,0 +1,52 @@
+{
+  "hash": "16cd148f",
+  "configHash": "5733d477",
+  "lockfileHash": "80c756a1",
+  "browserHash": "ae26fcd2",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "2c0c6f27",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "c44c00f3",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "8a5985c0",
+      "needsInterop": false
+    },
+    "oh-my-live2d": {
+      "src": "../../../../node_modules/oh-my-live2d/dist/index.js",
+      "file": "oh-my-live2d.js",
+      "fileHash": "d9811f5a",
+      "needsInterop": false
+    },
+    "gitalk": {
+      "src": "../../../../node_modules/.store/gitalk@1.8.0/node_modules/gitalk/dist/gitalk.js",
+      "file": "gitalk.js",
+      "fileHash": "d019fef5",
+      "needsInterop": true
+    },
+    "blueimp-md5": {
+      "src": "../../../../node_modules/.store/blueimp-md5@2.19.0/node_modules/blueimp-md5/js/md5.js",
+      "file": "blueimp-md5.js",
+      "fileHash": "5098d1c4",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-H4YLRMRE": {
+      "file": "chunk-H4YLRMRE.js"
+    },
+    "chunk-BUSYA2B4": {
+      "file": "chunk-BUSYA2B4.js"
+    }
+  }
+}
