@@ -1,49 +1,49 @@
 {
-  "hash": "16cd148f",
-  "configHash": "5733d477",
-  "lockfileHash": "80c756a1",
-  "browserHash": "ae26fcd2",
+  "hash": "37c428e2",
+  "configHash": "48306ca6",
+  "lockfileHash": "80432ec9",
+  "browserHash": "90125434",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "2c0c6f27",
+      "fileHash": "42886b2d",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "c44c00f3",
+      "fileHash": "3c3d3859",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "8a5985c0",
+      "fileHash": "7ed149af",
       "needsInterop": false
     },
     "oh-my-live2d": {
-      "src": "../../../../node_modules/oh-my-live2d/dist/index.js",
+      "src": "../../../../node_modules/.store/oh-my-live2d@0.19.3/node_modules/oh-my-live2d/dist/index.js",
       "file": "oh-my-live2d.js",
-      "fileHash": "d9811f5a",
+      "fileHash": "3be78a5c",
       "needsInterop": false
     },
     "gitalk": {
-      "src": "../../../../node_modules/.store/gitalk@1.8.0/node_modules/gitalk/dist/gitalk.js",
+      "src": "../../../../node_modules/gitalk/dist/gitalk.js",
       "file": "gitalk.js",
-      "fileHash": "d019fef5",
+      "fileHash": "3b2e2605",
       "needsInterop": true
     },
     "blueimp-md5": {
-      "src": "../../../../node_modules/.store/blueimp-md5@2.19.0/node_modules/blueimp-md5/js/md5.js",
+      "src": "../../../../node_modules/blueimp-md5/js/md5.js",
       "file": "blueimp-md5.js",
-      "fileHash": "5098d1c4",
+      "fileHash": "0dd209ab",
       "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-H4YLRMRE": {
-      "file": "chunk-H4YLRMRE.js"
+    "chunk-HQVAGNKX": {
+      "file": "chunk-HQVAGNKX.js"
     },
     "chunk-BUSYA2B4": {
       "file": "chunk-BUSYA2B4.js"

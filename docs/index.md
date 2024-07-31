@@ -1,9 +1,5 @@
 ---
 layout: home
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
 hero:
   name: 柏霞的博客
   text: Baixia's Blog
@@ -15,9 +11,6 @@ hero:
     - theme: brand
       text: 开始阅读 ->
       link: /articles/学习笔记
-    - theme: alt
-      text: Github主页
-      link: https://github.com/dp0qb
 features:
   - icon: 💻
     title: 学习笔记

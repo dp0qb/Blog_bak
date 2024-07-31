@@ -112,10 +112,7 @@ export default defineConfig({
           },
         },
       },
-    },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/dp0qb' }
-    ]
+    }
   },
   markdown: {
     config: (md) => {

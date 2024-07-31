@@ -1,4 +1,3 @@
-
 <template>
   <Layout :class="layoutClass">
     <template #doc-after>
@@ -21,3 +20,7 @@ if (frontmatter.value?.layoutClass) {
   layoutClass.value = frontmatter.value.layoutClass
 }
 </script>
+
+<style scoped>
+  @import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css';
+</style>
